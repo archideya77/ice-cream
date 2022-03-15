@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Fredoka One','Arial','Roboto'sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h6{
+    font-family: 'Fredoka One';
+}
+p{
+    font-family: 'Hind Madurai';
+}
+.home{
+    width: 100%;
+    background-color: #F2CEDA;
+}
+.home-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li > a{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #150101;
+    margin-right: 40px;
+}
+.first-a{
+    color: #D23166;
+}
+li > a:hover{
+    color: blue;
+}
+.btn,
+button{
+    padding: 14px 48px;
+    background-color: #D23166;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover,
+button:hover{
+    background-color: orange;
+}
+a{
+    color: #FAFAFA;
+}
+.btn2{
+    margin-top: 50px;
+}
+.home-main{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-main-text{
+    margin-bottom: 200px;
+}
+.home-main-text > b{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+.home-main-text > h6,
+.red-section{
+    margin-bottom: 30px;
+    width: 680px;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+}
+.red-section{
+    color: #a12851;
+}
+.home-main-text > p{
+    width: 520px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+}
+.cards{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 250px;
+    height: 200px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 30px;
+}
+.card > h6{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 9px 0;
+}
+.card  > p{
+    font-size: 14px;
+    line-height: 19px;
+}
